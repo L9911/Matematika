@@ -1,13 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package matematika;
-
-/**
- *
- * @author Ghaxre
- */
 public class Matematika {
     private int hasil; // Menggunakan modifier private untuk enkapsulasi
 
@@ -31,7 +21,7 @@ public class Matematika {
         if (b != 0) { // Menambahkan pengecekan pembagian dengan nol
             return a / b;
         } else {
-            throw new ArithmeticException("Pembagian dengan nol tidak diperbolehkan.");
+            throw new ArithmeticException;
         }
     }
 }
